@@ -1,0 +1,32 @@
+Choisir le niveau "Facile" donne une grille de jeu de 10x10
+Choisir le niveau "Moyen" donne une grille de jeu de 25x17
+Choisir le niveau "Difficile" donne une grille de jeu de 30x50
+Appuyer sur le bouton "Recommencer" affiche la page de choix de difficulté
+Choisir le niveau "Facile" donne une grille de jeu avec 15 bombes
+Choisir le niveau "Moyen" donne une grille de jeu avec 70 bombes
+Choisir le niveau "Difficile" donne une grille de jeu avec 250 bombes
+Les bombes sont placées de façon aléatoire dans la grille
+Le jeu peut être recommencé autant de fois que voulu sans fermer l'application
+Les cases au bord de la grille calculent correctement le nombre de bombes autour
+Les cases indiquent correctement le nombre de bombes autour d'eux
+Le compteur de temps débute seulement lorsque le premier clic gauche est fait
+Le compteur de temps s'arrête lorsque la partie est terminée (perdue ou gagnée)
+Faire un clic droit sur une case fait apparaitre un drapeau sur cette case
+Faire un clic droit sur une case avec un drapeau fait disparaitre le drapeau de la case
+Lorsque le nombre de drapeaux sur la grille change, le compteur de drapeaux restants à mettre se mets à jour
+Un drapeau ne peut pas être posé sur une case déjà découverte
+Le premier clic gauche de la partie est sur une case avec 0 bombes autour
+Chaque case découverte indique le nombre de bombes dans les cases autour de celle-ci
+Lorsqu'une case possede 0 bombes autour, toutes les cases autour se font découvrir
+Si le joueur fait un clic gauche sur une case avec une bombe, toutes les bombes non marquées par un drapeau apparaissent
+La grille de jeu est figee lorsque la partie est terminée (gagnée ou perdue)
+Si le joueur fait un clic gauche sur une case avec une bombe, les cases marquées avec un drapeau mais ne contenant pas de bombes sont marquées avec un drapeau avec un X dessus
+Appuyer sur le bouton "IA" une première fois démarre la completion de la grille avec l'intelligence artificielle
+Appuyer sur le bouton "IA" lorsque l'intelligence artificelle est en train de compléter la grille arrête l'intelligence artificielle
+La partie est gagnée si toutes les cases ne contenant pas de bombes sont découvertes
+Lorsque la partie est gagnée, affiche une fenêtre contextuelle avec un message de victoire et le temps qu'il fut necessaire pour compléter la grille de jeu
+Lorsque l'intelligence artificielle n'est plus capable de trouver un coup à faire avec ses regles, elle s'arrête toute seule
+L'intelligence artificielle ne fait pas d'erreurs sauf si elle exécute la fonction "flipACoinOneMove"
+Faire un clic gauche sur une case avec un drapeau ne fait rien
+Une case découverte ne peut pas être recachée
+Il est facile de savoir quelles cases sont découvertes et quelles cases ne le sont pas
